@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Result</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/static/favicon.png">
+</head>
+
+<style type="text/css">
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cccccc;
+
+}
+.box-2 {
+  border: 10px solid;
+  border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+  border-image-slice: 1;
+}
+img{
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+</style>
+<body>
+	<center>
+	<div>
+		<h2>Garlic Classifier Result</h2>
+		<img class='box-2' src="{{url_for('uploaded_file', filename=image_name)}}">
+	</div>
+	</center>
+</body>
+</html>
+
+
