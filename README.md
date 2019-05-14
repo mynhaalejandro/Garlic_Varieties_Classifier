@@ -1,1 +1,1 @@
-# myproject
+# Garlic Varieties Classifier
