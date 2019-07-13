@@ -6,21 +6,22 @@ Garlic varieites profiling is a system which able to classify registered garlic 
 
 A dataset was created using the extracted features to train and test the model. The model used was Decision Tree Classifier and was able to achieve 75% accuracy, 79% precision, and 75% recall scores.
 
-## Dataset
-The dataset used is garlic varieties dataset which can be downloaded from here. There are 7 different class of garlic on this dataset. Each class has about 50 images to work with.
-## Requirements
-- OpenCV
-- Numpy
-- Scipy
-- Matplotlib
-- Pandas
-- Seaborn
-- Itertools
-- Tqdm
-- Scikit Learn
-- Pydotplus
-- Pickle
-
 A prototype was created using the Decision Tree Classifier Model. The prototype was created using a microframework for Python called Flask.
 
+## Dataset
+The dataset used is garlic varieties dataset which can be downloaded from here. There are 7 different class of garlic on this dataset. Each class has about 50 images to work with.
 
+## Dependencies
+- openCV
+- numpy
+- scipy
+- matplotlib
+- pandas
+- seaborn
+- itertools
+- tqdm
+- scikit learn
+- pydotplus
+- pickle
+
+## Usage
