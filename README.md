@@ -8,6 +8,7 @@ A dataset was created using the extracted features to train and test the model. 
 
 ## Dataset
 The dataset used is garlic varieties dataset which can be downloaded from here. There are 7 different class of garlic on this dataset. Each class has about 50 images to work with.
+
 ## Requirements
 - OpenCV
 - Numpy
