@@ -15,7 +15,7 @@ def image_make(file_name):
 
 	a = cv2.imread(os.path.join(folder,file_name))
 
-	dataset = pd.read_csv("best_stats+shape+colors5.csv")
+	dataset = pd.read_csv("garlic_varieties_dataset.csv")
 	cols = dataset.columns.values
 	X = dataset[cols[1:14]] #starts with 0
 	Y = dataset[['varieties']]
