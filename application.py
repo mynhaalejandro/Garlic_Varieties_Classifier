@@ -1,4 +1,5 @@
 import os
+import testcv
 # We'll render HTML templates and access data sent by POST
 # using the request object from flask. Redirect and url_for
 # will be used to redirect the user once the upload is done
@@ -6,10 +7,11 @@ import os
 # browser the file that the user just uploaded
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory
 from werkzeug import secure_filename
+from flask_restful import Resource, Api
 
-import testcv
 # Initialize the Flask application
-app = Flask(__name__)
+application = app = Flask(__name__)
+api = Api(app)
 
 # This is the path to the upload directory
 app.config['UPLOAD_FOLDER'] = 'uploads/'
