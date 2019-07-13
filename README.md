@@ -12,16 +12,16 @@ A prototype was created using the Decision Tree Classifier Model. The prototype 
 The dataset used is garlic varieties dataset which can be downloaded from here. There are 7 different class of garlic on this dataset. Each class has about 50 images to work with.
 
 ## Dependencies
-- openCV
-- numpy
-- scipy
-- matplotlib
-- pandas
-- seaborn
-- itertools
-- tqdm
-- scikit learn
-- pydotplus
-- pickle
+- OpenCV
+- Numpy
+- Scipy
+- Matplotlib
+- Pandas
+- Seaborn
+- Itertools
+- Tqdm
+- Scikit Learn
+- Pydotplus
+- Pickle
 
 ## Usage
