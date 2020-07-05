@@ -25,3 +25,5 @@ The dataset used is garlic varieties dataset which can be downloaded from here. 
 - Pickle
 
 ## Usage
+
+[Check it out here!] (https://garlic-varieties-classifier.df.r.appspot.com/)
