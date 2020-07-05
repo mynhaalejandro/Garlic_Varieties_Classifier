@@ -26,6 +26,6 @@ The dataset used is garlic varieties dataset which can be downloaded from here. 
 
 ## Usage
 
-[Check it out here!] (https://garlic-varieties-classifier.df.r.appspot.com/)
+[Check it out here!](https://garlic-varieties-classifier.df.r.appspot.com/)
 
 [Google](https://www.google.com) - _Google | Youtube | Gmail | Maps | PlayStore | GoogleDrive_
