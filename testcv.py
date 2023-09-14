@@ -58,6 +58,7 @@ def image_make(file_name):
 	for contour in contours:
 		area = cv2.contourArea(contour)
 		if (area >= 100000 and area <= 900000): # (4-9, top) (1-9, bot,sides)
+			imgfinal = None
 			contour_list.append(contour)
 			lst_bgr = []
 			lst_hsv = []
@@ -358,29 +359,29 @@ def image_make(file_name):
 				roughness = contour_perimeter / convex_perimeter
 
 				#Extracted Features
-				print ratio_Bgr1
-				print ratio_Bgr2
-				print ratio_Bgr3
-				print ratio_Bgr4
-				print convex_perimeter
-				print convexity
-				print mean_r
-				print mean_s
-				print roughness
-				print std_s
-				print ratio_Con5
-				print ratio_Con6
-				print ratio_Con7
+				# print ratio_Bgr1
+				# print ratio_Bgr2
+				# print ratio_Bgr3
+				# print ratio_Bgr4
+				# print convex_perimeter
+				# print convexity
+				# print mean_r
+				# print mean_s
+				# print roughness
+				# print std_s
+				# print ratio_Con5
+				# print ratio_Con6
+				# print ratio_Con7
 
 				global_feature = np.hstack([ratio_Bgr1, ratio_Bgr2, ratio_Bgr3, ratio_Bgr4, convex_perimeter, convexity, mean_r,mean_s,roughness,std_s,ratio_Con5,ratio_Con6,ratio_Con7])
-				print global_feature
+				# print global_feature
 
 				class_names = ['batanes','ilocos_pink','ilocos_white','mexican', 'mmsu_gem', 'tanbolters', 'vfta']
 
 
 				# predict label of test image
 				prediction = decision_tree_classifier.predict(global_feature.reshape(1,-1))[0]
-				print prediction
+				# print prediction
 
 				boxes = []
 				for cnt in contour_list:

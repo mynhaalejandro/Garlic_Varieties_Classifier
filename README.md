@@ -11,6 +11,20 @@ A prototype was created using the Decision Tree Classifier Model. The prototype 
 ## Dataset
 The dataset used is garlic varieties dataset which can be downloaded from here. There are 7 different class of garlic on this dataset. Each class has about 50 images to work with.
 
+## First Installation
+
+- Create a virtual environment
+python -m venv venv_name
+
+- Activate the virtual environment (on Windows)
+venv_name\Scripts\activate
+
+- Activate the virtual environment (on macOS and Linux)
+source venv_name/bin/activate
+
+- Install the dependencies listed in the requirements.txt file
+pip install -r requirements.txt
+
 ## Dependencies
 - OpenCV
 - Numpy

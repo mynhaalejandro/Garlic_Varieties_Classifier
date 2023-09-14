@@ -1,16 +1,40 @@
-venv/
-
-*.pyc
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
 
-instance/
+# Local development files
+*.env
+*.log
+*.db
 
-.pytest_cache/
-.coverage
-htmlcov/
+# IDE files (for example, if you use PyCharm)
+.idea/
 
-dist/
-build/
-*.egg-info/
+# Compiled Python files
+*.pyc
 
+# Virtual environment
+venv/
+env/
+
+# Flask migration files (if using Flask-Migrate)
+/migrations/
+
+# User-specific Python environment files
+.pyenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment-specific settings
+.env
+
+# Visual Studio Code (VSCode) settings (optional)
+.vscode/
+
+# Mac OS system files (if you develop on macOS)
 .DS_Store
+
+# Windows thumbnail cache files (if you develop on Windows)
+Thumbs.db
